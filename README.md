@@ -1,5 +1,4 @@
 # An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
-
 --- 
 
 ## Overview
@@ -20,7 +19,6 @@ It converts unstructured lab reports into:
 - BMI & health condition analysis  
 
 ## Tech Stack
-
 | Layer        | Technology                    |
 |--------------|------------------------------ | 
 | Frontend     | React.js (Vite), CSS          |
@@ -34,7 +32,6 @@ It converts unstructured lab reports into:
 | Auth         | Passport.js / JWT             |
 
 ## Installation & Setup
-
 ### Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -58,35 +55,36 @@ npx nodemon index
 ```
 👉 This starts the backend server (API handling)
 
-## 🔗 How It Works
--User uploads lab report
--OCR extracts text
--NER model identifies medical entities
--Data is converted into structured table
--LLM generates explanation
--Diet engine creates personalized plan
+## How It Works
+- User uploads lab report  
+- OCR extracts text  
+- NER model identifies medical entities  
+- Data is converted into structured table  
+- LLM generates explanation  
+- Diet engine creates personalized plan  
 
 ## Results
--Achieved ~0.93 F1-score in entity extraction
--Handles noisy OCR data effectively
--Generates safe and personalized diet plans
+- Achieved 0.93 F1-score in entity extraction  
+- Handles noisy OCR data effectively  
+- Generates safe and personalized diet plans  
 
 ## Applications
--Healthcare support systems
--Patient self-analysis tools
--Clinical data automation
--Diet recommendation systems
+
+- Healthcare support systems
+- Patient self-analysis tools
+- Clinical data automation
+- Diet recommendation systems
 
 ## Limitations
--Not a replacement for doctors
--Limited to predefined diet rules
--Supports common lab tests only
+- Not a replacement for doctors
+- Limited to predefined diet rules
+- Supports common lab tests only
 
 ## Future Enhancements
--Mobile app integration
--Real-time monitoring
--Advanced AI-based recommendations
--More medical test coverage
+- Mobile app integration
+- Real-time monitoring
+- Advanced AI-based recommendations
+- More medical test coverage
 
 ## Authors
 **G. Harshini**
