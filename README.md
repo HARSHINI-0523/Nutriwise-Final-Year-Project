@@ -1,6 +1,5 @@
 # An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
 --- 
-
 ## Overview
 This project is an intelligent healthcare system that analyzes laboratory reports and generates personalized diet recommendations.
 
@@ -87,17 +86,14 @@ npx nodemon index
 - More medical test coverage
 
 ## Authors
-**G. Harshini**
-**K. Anjusri**
-**B. Naga Roopa Sri**
-**B. Jayanthi**
-
+- G. Harshini
+- K. Anjusri
+- B. Naga Roopa Sri
+- B. Jayanthi
 #### Guide: Dr. A. Ramana Lakshmi
 
 ## Acknowledgement
-
 We thank our faculty and institution for their continuous support.
 
 ## Support
-
 If you like this project, give it a ⭐ on GitHub!
