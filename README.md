@@ -1,5 +1,7 @@
 # An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
 
+--- 
+
 ## Overview
 This project is an intelligent healthcare system that analyzes laboratory reports and generates personalized diet recommendations.
 
@@ -57,7 +59,6 @@ npx nodemon index
 👉 This starts the backend server (API handling)
 
 ## 🔗 How It Works
-
 -User uploads lab report
 -OCR extracts text
 -NER model identifies medical entities
@@ -66,26 +67,22 @@ npx nodemon index
 -Diet engine creates personalized plan
 
 ## Results
-
 -Achieved ~0.93 F1-score in entity extraction
 -Handles noisy OCR data effectively
 -Generates safe and personalized diet plans
 
 ## Applications
-
 -Healthcare support systems
 -Patient self-analysis tools
 -Clinical data automation
 -Diet recommendation systems
 
 ## Limitations
-
 -Not a replacement for doctors
 -Limited to predefined diet rules
 -Supports common lab tests only
 
 ## Future Enhancements
-
 -Mobile app integration
 -Real-time monitoring
 -Advanced AI-based recommendations
