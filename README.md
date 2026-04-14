@@ -57,55 +57,45 @@ npx nodemon index
 👉 This starts the backend server (API handling)
 
 ## 🔗 How It Works
-User uploads lab report
-OCR extracts text
-NER model identifies medical entities
-Data is converted into structured table
-LLM generates explanation
-Diet engine creates personalized plan
 
-## Technologies Used
-Frontend: React (Vite)
-Backend: Node.js, Express
-OCR: PaddleOCR
-ML Model: BiLSTM-CRF
-Framework: PyTorch
-LLM: Groq / HuggingFace
-Version Control: Git & GitHub
+-User uploads lab report
+-OCR extracts text
+-NER model identifies medical entities
+-Data is converted into structured table
+-LLM generates explanation
+-Diet engine creates personalized plan
 
 ## Results
-Achieved ~0.86 F1-score in entity extraction
-Handles noisy OCR data effectively
-Generates safe and personalized diet plans
 
-## Objectives
- -Automate lab report analysis
- -Simplify medical data understanding
- -Provide actionable health insights
- -Promote preventive healthcare
+-Achieved ~0.93 F1-score in entity extraction
+-Handles noisy OCR data effectively
+-Generates safe and personalized diet plans
 
 ## Applications
- -Healthcare support systems
- -Patient self-analysis tools
- -Clinical data automation
- -Diet recommendation systems
+
+-Healthcare support systems
+-Patient self-analysis tools
+-Clinical data automation
+-Diet recommendation systems
 
 ## Limitations
- -Not a replacement for doctors
- -Limited to predefined diet rules
- -Supports common lab tests only
+
+-Not a replacement for doctors
+-Limited to predefined diet rules
+-Supports common lab tests only
 
 ## Future Enhancements
- -Mobile app integration
- -Real-time monitoring
- -Advanced AI-based recommendations
- -More medical test coverage
+
+-Mobile app integration
+-Real-time monitoring
+-Advanced AI-based recommendations
+-More medical test coverage
 
 ## Authors
-G. Harshini
-K. Anjusri
-B. Naga Roopa Sri
-B. Jayanthi
+**G. Harshini**
+**K. Anjusri**
+**B. Naga Roopa Sri**
+**B. Jayanthi**
 
 #### Guide: Dr. A. Ramana Lakshmi
 
