@@ -1,5 +1,4 @@
 # 🧪 An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
-
 ---
 
 ## 📌 Overview
@@ -24,7 +23,6 @@ It converts unstructured lab reports into:
 ---
 
 ## 🛠 Tech Stack
-
 | Layer         | Technology                     |
 |--------------|------------------------------|
 | Frontend     | React.js (Vite), CSS          |
@@ -40,14 +38,12 @@ It converts unstructured lab reports into:
 ---
 
 ## ⚙️ Installation & Setup
-
 ### 🔧 Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 ## ▶️ Running the Project
-
 ### 🔸 Step 1: Run Frontend
 ```bash
 cd frontend
@@ -68,7 +64,6 @@ npx nodemon index
 👉 This starts the backend server (API handling)
 
 ## 🔗 How It Works
-
 - 📄 User uploads lab report  
 - 🔍 OCR extracts text  
 - 🧠 NER model identifies medical entities  
@@ -79,7 +74,6 @@ npx nodemon index
 ---
 
 ## 📊 Results
-
 - 📈 Achieved **0.93 F1-score** in entity extraction  
 - ⚡ Handles noisy OCR data effectively  
 - 🥗 Generates safe and personalized diet plans  
@@ -87,7 +81,6 @@ npx nodemon index
 ---
 
 ## 📌 Applications
-
 - 🏥 Healthcare support systems  
 - 👨‍⚕️ Patient self-analysis tools  
 - 📊 Clinical data automation  
@@ -96,7 +89,6 @@ npx nodemon index
 ---
 
 ## ⚠️ Limitations
-
 - Not a replacement for doctors  
 - Limited to predefined diet rules  
 - Supports common lab tests only  
@@ -104,7 +96,6 @@ npx nodemon index
 ---
 
 ## 🔮 Future Enhancements
-
 - 📱 Mobile app integration  
 - ⏱ Real-time monitoring  
 - 🤖 Advanced AI-based recommendations  
@@ -113,7 +104,6 @@ npx nodemon index
 ---
 
 ## 👩‍💻 Authors
-
 - G. Harshini  
 - K. Anjusri  
 - B. Naga Roopa Sri  
@@ -124,11 +114,9 @@ npx nodemon index
 ---
 
 ## 🙌 Acknowledgement
-
 We thank our faculty and institution for their continuous support.
 
 ---
 
 ## ⭐ Support
-
 If you like this project, give it a ⭐ on GitHub!
