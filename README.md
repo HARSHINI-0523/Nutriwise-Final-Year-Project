@@ -1,5 +1,4 @@
 # 🧪 An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
----
 
 ## 📌 Overview
 This project is an intelligent healthcare system that analyzes laboratory reports and generates personalized diet recommendations.
@@ -9,8 +8,6 @@ It converts unstructured lab reports into:
 - 💬 Easy-to-understand explanations  
 - 🥗 Personalized diet plans  
 
----
-
 ## 🚀 Features
 - 📄 Upload lab reports (PDF/Image)  
 - 🔍 OCR-based text extraction (PaddleOCR)  
@@ -19,8 +16,6 @@ It converts unstructured lab reports into:
 - 💬 LLM-based explanation  
 - 🥗 Personalized weekly diet plan  
 - 📈 BMI & health condition analysis  
-
----
 
 ## 🛠 Tech Stack
 | Layer         | Technology                     |
@@ -34,8 +29,6 @@ It converts unstructured lab reports into:
 | LLM          | Groq / HuggingFace            |
 | File Upload  | Multer, Cloudinary            |
 | Auth         | Passport.js / JWT             |
-
----
 
 ## ⚙️ Installation & Setup
 ### 🔧 Clone the Repository
@@ -71,14 +64,10 @@ npx nodemon index
 - 💬 LLM generates explanation  
 - 🥗 Diet engine creates personalized plan  
 
----
-
 ## 📊 Results
 - 📈 Achieved **0.93 F1-score** in entity extraction  
 - ⚡ Handles noisy OCR data effectively  
 - 🥗 Generates safe and personalized diet plans  
-
----
 
 ## 📌 Applications
 - 🏥 Healthcare support systems  
@@ -86,22 +75,16 @@ npx nodemon index
 - 📊 Clinical data automation  
 - 🥗 Diet recommendation systems  
 
----
-
 ## ⚠️ Limitations
 - Not a replacement for doctors  
 - Limited to predefined diet rules  
 - Supports common lab tests only  
-
----
 
 ## 🔮 Future Enhancements
 - 📱 Mobile app integration  
 - ⏱ Real-time monitoring  
 - 🤖 Advanced AI-based recommendations  
 - 🧪 More medical test coverage  
-
----
 
 ## 👩‍💻 Authors
 - G. Harshini  
@@ -111,12 +94,8 @@ npx nodemon index
 
 **Guide:** Dr. A. Ramana Lakshmi  
 
----
-
 ## 🙌 Acknowledgement
 We thank our faculty and institution for their continuous support.
-
----
 
 ## ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
