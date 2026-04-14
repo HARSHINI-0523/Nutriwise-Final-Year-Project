@@ -1,0 +1,100 @@
+.diet-view-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px 60px;
+}
+
+.diet-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #065f46;
+  margin-bottom: 32px;
+}
+
+/* Day card */
+.day-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+}
+
+.day-title {
+  font-size: 1.4rem;
+  color: #047857;
+  margin-bottom: 18px;
+}
+
+/* Meal grid */
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+/* Meal card */
+.meal-card {
+  background: #f0fdf4;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #d1fae5;
+}
+
+.meal-title {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  color: #065f46;
+  margin-bottom: 6px;
+}
+
+.food-name {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #064e3b;
+}
+
+.meal-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #065f46;
+  margin-bottom: 6px;
+}
+
+.macros {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #047857;
+}
+
+/* Avoid list */
+.avoid-card {
+  margin-top: 40px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.avoid-card h3 {
+  color: #9a3412;
+  margin-bottom: 10px;
+}
+
+.avoid-card ul {
+  padding-left: 18px;
+}
+
+.avoid-card li {
+  color: #7c2d12;
+  margin-bottom: 6px;
+}
+
+/* Empty state */
+.diet-empty {
+  text-align: center;
+  margin-top: 80px;
+  color: #6b7280;
+}

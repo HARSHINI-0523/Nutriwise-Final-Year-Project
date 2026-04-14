@@ -1,0 +1,125 @@
+/* ---- General Page Layout ---- */
+.friends-page {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ---- Search Section (Top Bar) ---- */
+.search-section {
+  width: 100%;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccd0d5;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.action-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+/* ---- Card Container (For the 3 sections) ---- */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 24px;
+}
+
+/* ---- General Card Styling ---- */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  color: #050505;
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.results-list {
+  margin-top: 15px;
+  max-height: 300px; /* Limit height and allow scrolling */
+  overflow-y: auto;
+}
+.result-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f2f5;
+}
+.result-card:last-child {
+  border-bottom: none;
+}
+.result-card p {
+  margin: 0;
+  color: #333;
+}
+
+.empty-message {
+  color: #65676b;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* ---- Buttons ---- */
+
+/* ✅ ADD THIS NEW RULE FOR THE BUTTON CONTAINER */
+.actions {
+  display: flex; /* This aligns the buttons in a row */
+  gap: 8px;      /* This adds a small space between them */
+}
+
+.btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: background-color 0.2s;
+}
+.btn.add { background-color: #007bff; color: white; }
+.btn.add:hover { background-color: #0056b3; }
+.btn.accept { background-color: #28a745; color: white; }
+.btn.accept:hover { background-color: #218838; }
+
+/* ✅ REMOVE 'margin-left' FROM THIS RULE */
+.btn.reject { background-color: #e4e6eb; color: #050505; }
+.btn.reject:hover { background-color: #dcdde1; }
+
+
+/* ---- Responsive Design for Mobile ---- */
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Stack the 3 cards vertically */
+  }
+}

@@ -1,0 +1,132 @@
+/* --- Base App Layout --- */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Wrapper for the sidebar and main content */
+.main-content-wrapper {
+    display: flex;
+    flex: 1; /* Takes up remaining vertical space below header */
+    padding-top: 60px; /* Offset for the fixed header height */
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1; /* Takes up remaining horizontal space */
+    padding: 20px;
+    overflow-y: auto; /* Allows content scrolling */
+}
+
+/* --- Sidebar Component Styles --- */
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+    transition: width 0.3s ease-in-out, min-width 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.sidebar.expanded {
+    width: 240px;
+    min-width: 240px;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+    min-width: 60px;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 15px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar.collapsed .sidebar-header {
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #00796b; /* Accent color */
+}
+
+.collapse-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    line-height: 0;
+    color: #6c757d;
+}
+
+.collapse-btn:hover {
+    background-color: #e2e6ea;
+    color: #333;
+}
+
+.collapse-btn svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 4px;
+    margin: 5px 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sidebar-link:hover {
+    background-color: #e0f2f1;
+    color: #00796b;
+}
+
+.sidebar-link.active {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Collapsed state styles for links */
+.sidebar.collapsed .sidebar-link {
+    justify-content: center;
+    padding: 10px;
+}
+
+.sidebar.collapsed .sidebar-link .link-icon {
+    font-size: 1.2rem;
+}
+
+.sidebar.collapsed .sidebar-link:hover {
+    background-color: #e0f2f1;
+    color: #00796b;
+}
+
+.link-icon{
+    margin-right:10px;
+}

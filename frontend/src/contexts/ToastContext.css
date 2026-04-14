@@ -1,0 +1,66 @@
+/* Toast container */
+#toast-notification {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Class for the hidden state */
+.toast-hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+/* Class for the visible state */
+.toast-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Color variations for the toast box, applied to the main container */
+.toast-success {
+    border-left: 5px solid #0d9488;
+}
+
+.toast-error {
+    border-left: 5px solid #d9534f;
+}
+
+/* New CSS for the progress bar */
+.progress-bar-container {
+    height: 4px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    transition: width 0.1s linear;
+}
+
+/* Color variations for the progress bar */
+.progress-bar-success .progress-bar-fill {
+    background-color: #0d9488;
+}
+
+.progress-bar-error .progress-bar-fill {
+    background-color: #d9534f;
+}
+
+.toast-content {
+    color: black;
+    margin-bottom: 5px;
+}

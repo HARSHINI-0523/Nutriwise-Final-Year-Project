@@ -1,0 +1,117 @@
+.reports-container {
+  width: 100%; /* Occupy full width of the parent container */
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.reports-container h2 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2.2em;
+}
+
+.reports-container p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+.loading-container, .error-container, .no-reports-container {
+  text-align: center;
+  padding: 80px 20px;
+  color: #666;
+  font-size: 1.2em;
+}
+
+.error-container {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.no-reports-container p {
+  margin-top: 15px;
+  font-style: italic;
+  color: #888;
+}
+
+.reports-list {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.report-card {
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.report-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #eef7f4;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.report-title {
+  margin: 0;
+  color:#00796b; 
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.report-type {
+  font-size: 0.9em;
+  color: #888;
+  background-color: #eef;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.report-date {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.report-link {
+  display: inline-block;
+  margin-top: auto;
+  padding: 12px 18px;
+  background-color: #00796b; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.report-link:hover {
+  background-color: #2e8b57;
+}

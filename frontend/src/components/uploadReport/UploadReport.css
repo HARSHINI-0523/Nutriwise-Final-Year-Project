@@ -1,0 +1,89 @@
+.upload-report-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter', sans-serif;
+}
+
+.upload-report-header {
+    font-size: 1.8rem;
+    color: #00796b; /* Teal accent */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e0f2f1;
+    padding-bottom: 10px;
+}
+
+.upload-report-description {
+    color: #6c757d;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.upload-form .form-group {
+    margin-bottom: 20px;
+}
+
+.upload-form label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.upload-form input[type="file"],
+.upload-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #495057;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.upload-form input[type="file"]:focus,
+.upload-form select:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 0 3px rgba(0, 121, 107, 0.2);
+    outline: none;
+}
+
+.file-info {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #00796b;
+    background-color: #e0f2f1;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.report-upload-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s, transform 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 121, 107, 0.3);
+    margin-bottom: 10px;
+}
+
+.report-upload-btn:hover:not(:disabled) {
+    background-color: #006056;
+}
+
+.report-upload-btn:disabled {
+    background-color: #aeb5bb;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+

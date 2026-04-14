@@ -1,0 +1,101 @@
+.verify-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f7f9; /* soft neutral background */
+  padding: 20px;
+  font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
+}
+
+.verify-card {
+  background: #ffffff;
+  padding: 3rem 3.2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  animation: fadeIn 0.35s ease-out;
+}
+
+.verify-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #064b44; /* NutriWise green tone */
+}
+
+.verify-card p {
+  font-size: 0.97rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* OTP input styling */
+.verify-card input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.35rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #d1d9de;
+  outline: none;
+  transition: all 0.25s ease;
+  background: #fafafa;
+}
+
+.verify-card input:focus {
+  border-color: #0a8a77;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(10, 138, 119, 0.15);
+}
+
+/* Button */
+.verify-card button {
+  margin-top: 1.8rem;
+  width: 100%;
+  padding: 0.95rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #0a8a77, #064b44);
+  color: white;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.verify-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .verify-card {
+    padding: 2.3rem 1.8rem;
+    border-radius: 14px;
+  }
+
+  .verify-card h2 {
+    font-size: 1.7rem;
+  }
+
+  .verify-card input {
+    font-size: 1.1rem;
+    letter-spacing: 0.25rem;
+  }
+}

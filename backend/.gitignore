@@ -1,0 +1,10 @@
+# Dependency folders
+node_modules/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
+
+/uploads
